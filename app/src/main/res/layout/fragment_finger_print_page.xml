@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+
+        android:layout_height="match_parent"
+        tools:context=".presentation.ui.FingerPrintPage">
+        <ImageView
+            android:layout_width="20dp"
+            android:visibility="invisible"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+
+            android:id="@+id/redDot"
+            android:background="@drawable/red_circle"
+            app:tint="@color/white" />
+        <ImageView
+            android:layout_width="20dp"
+            android:visibility="invisible"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+
+            android:id="@+id/greenDot"
+            android:background="@drawable/green_circle"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gilroy_light"
+            android:textSize="24sp"
+            android:id="@+id/idTv"
+            android:text="Lütfen kimliğini doğrula." />
+
+    </RelativeLayout>
+</layout>
+

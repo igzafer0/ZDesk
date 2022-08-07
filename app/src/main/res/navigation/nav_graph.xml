@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fingerPrintPage">
+
+    <fragment
+        android:id="@+id/fingerPrintPage"
+        android:name="com.igzafer.zdesk.presentation.ui.FingerPrintPage"
+        android:label="fragment_finger_print_page"
+        tools:layout="@layout/fragment_finger_print_page" />
+</navigation>
